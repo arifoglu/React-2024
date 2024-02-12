@@ -7,6 +7,7 @@ import NoPage from './pages/NoPage';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>    
@@ -17,7 +18,8 @@ function App() {
              <Route path='contact' element={ <Contact />}/>
              <Route path='*' element={ <NoPage />}/>
           </Route>
-        </Routes>     
+        </Routes> 
+  
     </BrowserRouter>
   );
 }
